@@ -11,12 +11,8 @@ int main(void)
 int ch;
 for (ch = 'a'; ch <= 'z'; ++ch)
 {
-if (ch == 'p')
+if (ch == 'p' && ch == 'e')
 	continue;
-
-if (ch == 'e')
-	continue;
-
 putchar(ch);
 }
 putchar(10);
